@@ -50,6 +50,15 @@ cors-headers-ben engedélyezni a lekérést:
      'http://localhost:3000'
 ]
 
+serializer létrehozása (db-ből JSON)
+
+View létrehozás 
+
+URL hozzáadás
+
+
+
+
 
 
 
