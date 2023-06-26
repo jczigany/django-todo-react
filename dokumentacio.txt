@@ -1,0 +1,20 @@
+mkdir django-todo-react
+cd django-todo-react
+python -m venv <virtual-kornyezet-name>
+.gitignore létrehozás (minimum a vemv-et belerakni, azt felesleges git-elni)
+virtual kornyezet aktiválás
+pip install django
+python.exe -m pip install --upgrade pip
+
+Django-project létrehozás:
+    django-admin startproject backend
+
+Django App létrehozás:  
+    cd backend
+    python manage.py startapp todo
+
+python manage.py migrate
+python manage.py runserver
+******************************************************
+Meg van az alap project egy alap App-al, fut a szerver
+******************************************************
