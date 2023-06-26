@@ -18,3 +18,20 @@ python manage.py runserver
 ******************************************************
 Meg van az alap project egy alap App-al, fut a szerver
 ******************************************************
+
+settings.py - INSTALLED_APPS hoz hozzáadni a todo-t
+
+Defining the Todo Model  (models.py)
+modell migrálása  ( python manage.py makemigrations, python manage.py migrate)
+
+Model regisztrálása az admin felületre (todo/admin.py-ban)
+
+Superuser létrehozása az admin felülethez:
+    python manage.py createsuperuser
+
+*******************************************
+Működik az admin felület az adott modellhez
+*******************************************    
+
+
+
