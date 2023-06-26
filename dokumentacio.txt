@@ -1,3 +1,5 @@
+1. SETTING UP BACKEND
+
 mkdir django-todo-react
 cd django-todo-react
 python -m venv <virtual-kornyezet-name>
@@ -32,6 +34,23 @@ Superuser létrehozása az admin felülethez:
 *******************************************
 Működik az admin felület az adott modellhez
 *******************************************    
+
+2. SETTING UP APIs
+
+ujabb modulok telepitése: pip install djangorestframework django-cors-headers
+
+settings.py-ban az INSTALLED_APPS és MIDDLEWARE szekció bővítése
+    'corsheaders',
+    'rest_framework',
+
+    'corsheaders.middleware.CorsMiddleware',
+
+cors-headers-ben engedélyezni a lekérést:
+    CORS_ORIGIN_WHITELIST = [
+     'http://localhost:3000'
+]
+
+
 
 
 
